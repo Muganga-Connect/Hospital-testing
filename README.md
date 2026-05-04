@@ -37,27 +37,6 @@ WebApp/
 - Firebase Authentication
 - Cloud Firestore
 
-## Firebase Setup
-
-1. Create or open a Firebase project.
-2. Enable **Authentication** and add the email/password sign-in provider.
-3. Enable **Cloud Firestore**.
-4. Create a web app in Firebase project settings.
-5. Copy your Firebase config into `firebase-config.js`.
-
-Example:
-
-```js
-const firebaseConfig = {
-  apiKey: "YOUR_API_KEY",
-  authDomain: "YOUR_PROJECT.firebaseapp.com",
-  projectId: "YOUR_PROJECT_ID",
-  storageBucket: "YOUR_PROJECT.appspot.com",
-  messagingSenderId: "YOUR_SENDER_ID",
-  appId: "YOUR_APP_ID"
-};
-```
-
 ## Firestore Collections
 
 The app expects these collections:
